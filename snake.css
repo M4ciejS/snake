@@ -1,0 +1,39 @@
+div.rounded
+{
+display:block;
+clear: both;
+border:2px solid #a1a1a1;
+padding:10px 40px; 
+background:#dddddd;
+width:400px;
+border-radius:45px;
+-moz-border-radius:25px; /* Old Firefox */
+box-shadow: 10px 10px 10px #445544;
+}
+div.canva{
+display: block;
+width: 800px;
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+background: url("snake.png");
+}
+div.title{
+margin-left: auto;
+margin-right: auto;
+height: 189px;
+width: 800px;
+background: url("snaketitle.png") no-repeat center center;
+}
+div.highscore{
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+width: 800px;
+font: 20px monospace;
+text-align: center;
+}
+canvas{
+margin-top: 90px;
+margin-left: 100px;
+}
